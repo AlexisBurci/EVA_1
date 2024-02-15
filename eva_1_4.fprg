@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value="edad"/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-15 03:56:42 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjQtMDItMTU7MDM6MjM6MjkgcC4gbS47MjgyOA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjQtMDItMTU7MDM6NTY6NDIgcC4gbS47MTsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Carrera" type="String" array="False" size=""/>
+            <declare name="grado" type="Integer" array="False" size=""/>
+            <assign variable="Carrera" expression="&quot;ingenieria en sistemas&quot;"/>
+            <output expression="&quot;Tu carrera es&quot;" newline="True"/>
+            <output expression="carrera" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
